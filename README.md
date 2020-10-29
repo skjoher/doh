@@ -7,6 +7,21 @@
 
  This code uses POST requests unconditionally for this.
 
+## install
+
+```sh
+sudo apt-get install libcurl4-gnutls-dev librtmp-dev
+make
+sudo make install
+```
+
+## example
+
+```sh
+doh -v test06.in
+doh test06.in
+
+```
 ## Usage
 
     doh [options] host [DoH URL]
